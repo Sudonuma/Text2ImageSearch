@@ -1,0 +1,16 @@
+qdrant-client
+sentence-transformers
+transformers
+tqdm
+matplotlib
+torch
+numpy
+torch
+torchvision
+scipy
+Pillow
+pandas
+fastapi
+jinja2
+uvicorn
+datasets
