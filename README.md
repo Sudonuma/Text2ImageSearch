@@ -122,7 +122,7 @@ A more detailed architecture:
    - Retrieve the ID of the closest image from the dataset.
 
 5. **Web Interface:**
-   - Developed a web interface using Jinja2templates and HTMX for dynamic content.
+   - Developed a web interface using Jinja2templates and HTMX.
    - Allow users to input search queries through a web form.
    - Retrieve the closest image corresponding to the search query.
    - Render the closest image on the web page for user interaction.
