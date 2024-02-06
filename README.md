@@ -1,4 +1,4 @@
-# Text-to-Image Search System using Qdrant, CLIP, and Web Interface
+# Text-to-Image Search System using Qdrant, CLIP, and FastAPI
 
 ## Table of Contents
 
@@ -72,7 +72,7 @@ docker run -p 6333:6333 -v $(pwd)/qdrant_storage:/qdrant/storage qdrant/qdrant
 
 - The embedding process is complete when the logger indicates the end of embedding.
 - go to [http://127.0.0.1:8000/index](http://127.0.0.1:8000/index)
-- Access the following endpoints:
+
 - **Index Endpoint:** [http://127.0.0.1:8000/index](http://127.0.0.1:8000/index) The index endpoint hosts the frontend where users can input search queries and view the resulting image along with its score.
 - **EDA Endpoint:** [http://127.0.0.1:8000/EDA](http://127.0.0.1:8000/EDA) The EDA endpoint offers exploratory data analysis of the advertisement dataset.
 
@@ -98,7 +98,7 @@ A more detailed architecture:
 
 1. **EDA**
    - Exploratory data analysis for provided advertisement dataset.
-   Insights about the data can be found either [Notebook](EDA.ipynb) or on the EDA endpoint.
+   Insights about the data can be found either in [Notebook](EDA.ipynb) or on the EDA endpoint.
 
    if you whish to run the extract text cell you have to install tesseract:
 
@@ -157,7 +157,7 @@ To effectively show the capabilities of our text-to-image search system, we need
 
 ### Results:
 
-Below are examples of results for different types of queries, including exact match and complex queries. However, I have not conducted the evaluation process to obtain evaluation values and did not discuss the results. (For more results, please refer to the 'results' folder).
+Below are examples of results for different types of queries, including exact match and complex queries. **However, I have not conducted the evaluation process to obtain evaluation values and did not discuss the results.** (For more results, please refer to the 'results' folder).
 
 
 
