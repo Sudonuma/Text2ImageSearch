@@ -18,7 +18,7 @@ This project implements a text-to-image search system using Qdrant as a vector d
 
 ## Installation and Setup
 
-> Note: Although unconventional, I included a sample of the dataset with this repository. If you prefer to use a different dataset, simply replace the contents of the 'dataset' folder.
+> Note: **Although unconventional, I included a sample of the dataset with this repository. If you prefer to use a different dataset, simply replace the contents of the 'dataset' folder.**
 
 1. Clone the repository:
 
