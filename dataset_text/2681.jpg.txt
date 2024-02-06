@@ -1,0 +1,8 @@
+When
+isa
+DOG
+nota
+DOG?
+
+Cheesy Coney Dog.
+

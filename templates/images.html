@@ -1,0 +1,16 @@
+
+<div id="image-container" class="mb-4">
+
+    {% if image_score %}
+    <img src="data:image/jpeg;base64,{{ image_base64 }}" alt="My Image" class="h-auto max-w-full" alt="" />
+    <div class="border border-gray-300 mt-2 px-4 py-2">
+        <p class="text-lg font-semibold text-gray-800">Image score: {{ image_score }}</p>
+    </div>
+    {% endif %}
+</div>
+  <!-- <div class="mb-4">
+    <img
+      src="https://mdbootstrap.com//img/Photos/Square/1.jpg"
+      class="h-auto max-w-full"
+      alt="" />
+  </div>   

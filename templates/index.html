@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text2ImageSearch</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+        <p class="text-2x1 font-bold mb-4">Text2Image Gen</p>
+        <div>
+            <form hx-post="/index" hx-target="#image-container" hx-swap="outerHTML">
+                <label for="input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Input Text</label>
+                <input type="text" id="input" name="search_query" class="mb-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Looking at sunset" required>
+                <button type="submit" class="mb-4 px-3 py-1 bg-blue-600 text-white m1-4">Get Image</button>
+            </form>
+        </div>
+    <div>
+        {% include 'images.html' %}
+    </div>
+
+</body>
+</html>

@@ -5,7 +5,6 @@ tqdm
 matplotlib
 torch
 numpy
-torch
 torchvision
 scipy
 Pillow
@@ -14,3 +13,4 @@ fastapi
 jinja2
 uvicorn
 datasets
+python-multipart
