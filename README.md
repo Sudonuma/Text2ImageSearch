@@ -52,7 +52,7 @@ Before running the script:
   export API_URL="YOUR_API_URL"
   ```
 
-> NOTE: if you want to run on local host run (in a seperate terminal):
+> NOTE: if you want to run on locally run (in a seperate terminal):
 
 ```
 
